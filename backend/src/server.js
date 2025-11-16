@@ -34,7 +34,7 @@ app.get('/', (req, res) => {
 });
 
 // For React/Frontend Routing
-app.get("*", (req, res) => {
+app.get("*name", (req, res) => {
   res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
