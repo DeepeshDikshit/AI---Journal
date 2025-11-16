@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'http://localhost:5000/api' });
+const API = axios.create({ baseURL: 'https://ai-journal-h6qm.onrender.com/api' });
 
 // Add token to request headers if it exists
 API.interceptors.request.use((req) => {
