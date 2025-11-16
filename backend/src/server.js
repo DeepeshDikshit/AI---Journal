@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 import cors from 'cors'
 import dotenv from 'dotenv'
 import connectDB from "./db/db.js";
-import authRoutes from "./routes/authroutes.js";
+import authRoutes from "./routes/authRoutes.js";
 import journalRoutes from "./routes/journalRoutes.js"
 
 
