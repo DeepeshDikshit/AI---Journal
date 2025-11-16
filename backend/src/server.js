@@ -5,7 +5,7 @@ import dotenv from 'dotenv'
 import connectDB from "./db/db.js";
 import authRoutes from "./routes/authRoutes.js";
 import journalRoutes from "./routes/journalRoutes.js"
-const path = require('path');
+import path from 'path';
 
 
 dotenv.config()
